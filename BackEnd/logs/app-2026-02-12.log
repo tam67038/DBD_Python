@@ -1,0 +1,65 @@
+2026-02-12 11:55:33,986 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 11:55:33,986 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 11:55:33,986 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 11:55:33,992 | INFO | app.services.pdf_service | Save PDF success: D:\download\0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 11:55:33,992 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 11:55:33,992 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
+2026-02-12 11:59:59,687 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 11:59:59,689 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 11:59:59,689 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 11:59:59,689 | ERROR | app.services.InquirySHL_service | Hash mismatch file=0105557028888SHLJOB00120250903104421828.pdf api_hash=-6D1A41399A46BCD91E93BDD0FD3C3E7A9FF1C482FFDC8D447A4883F3F96CB3C0 local_hash=6D1A41399A46BCD91E93BDD0FD3C3E7A9FF1C482FFDC8D447A4883F3F96CB3C0
+2026-02-12 11:59:59,690 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=0
+2026-02-12 12:12:04,528 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:12:04,529 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:12:04,529 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 12:12:04,529 | ERROR | app.services.InquirySHL_service | Process file failed: 0105557028888SHLJOB00120250903104421828.pdf error='ResponseData' object has no attribute 'OrganizationJuristicID'
+Traceback (most recent call last):
+  File "D:\New folder\DBD_Python\BackEnd\app\services\InquirySHL_service.py", line 51, in save_data
+    resp.data.OrganizationJuristicID + "_" + dt_str
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pittayaj\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ResponseData' object has no attribute 'OrganizationJuristicID'
+2026-02-12 12:12:04,530 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=0
+2026-02-12 12:12:16,983 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:12:16,983 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:12:16,983 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 12:12:16,988 | ERROR | app.services.InquirySHL_service | Process file failed: 0105557028888SHLJOB00120250903104421828.pdf error='ResponseData' object has no attribute 'OrganizationJuristicID'
+Traceback (most recent call last):
+  File "D:\New folder\DBD_Python\BackEnd\app\services\InquirySHL_service.py", line 51, in save_data
+    resp.data.OrganizationJuristicID + "_" + dt_str
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pittayaj\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ResponseData' object has no attribute 'OrganizationJuristicID'
+2026-02-12 12:12:16,988 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=0
+2026-02-12 12:13:15,665 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:13:15,665 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:13:15,665 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 12:13:15,665 | INFO | app.services.pdf_service | Save PDF success: D:\download\0105557028888_20260212121315
+2026-02-12 12:13:15,665 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0105557028888_20260212121315
+2026-02-12 12:13:15,665 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
+2026-02-12 12:13:23,102 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:13:23,102 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:13:23,102 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 12:13:23,107 | INFO | app.services.pdf_service | Save PDF success: D:\download\0105557028888_20260212121323
+2026-02-12 12:13:23,107 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0105557028888_20260212121323
+2026-02-12 12:13:23,107 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
+2026-02-12 12:17:30,036 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:17:30,036 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:17:30,036 | INFO | app.services.InquirySHL_service | Processing file: 0105557028888SHLJOB00120250903104421828.pdf
+2026-02-12 12:17:30,042 | INFO | app.services.pdf_service | Save PDF success: D:\download\0105557028888_20260212121730.pdf
+2026-02-12 12:17:30,042 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0105557028888_20260212121730.pdf
+2026-02-12 12:17:30,042 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
+2026-02-12 12:22:20,788 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 12:22:21,479 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 12:22:21,479 | INFO | app.services.InquirySHL_service | Processing file: 0107561000013SHLJOB00120260121084952020.pdf
+2026-02-12 12:22:22,330 | INFO | app.services.pdf_service | Save PDF success: D:\download\0107561000013_20260212122221.pdf
+2026-02-12 12:22:22,332 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0107561000013_20260212122221.pdf
+2026-02-12 12:22:22,332 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
+2026-02-12 16:21:53,884 | INFO | app.services.InquirySHL_service | Start save_data
+2026-02-12 16:21:54,726 | INFO | app.services.InquirySHL_service | Load mock BDEX data success
+2026-02-12 16:21:54,726 | INFO | app.services.InquirySHL_service | Processing file: 0107561000013SHLJOB00120260121084952020.pdf
+2026-02-12 16:21:55,469 | INFO | app.services.pdf_service | Save PDF success: D:\download\0107561000013_20260212162155.pdf
+2026-02-12 16:21:55,473 | INFO | app.services.InquirySHL_service | Save file success: D:\download\0107561000013_20260212162155.pdf
+2026-02-12 16:21:55,473 | INFO | app.services.InquirySHL_service | Finish save_data, total_saved=1
