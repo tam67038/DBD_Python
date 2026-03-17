@@ -1,0 +1,82 @@
+# ============================================================
+# Python / FastAPI Backend
+# ============================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================================
+# Vue.js / Node.js Frontend
+# ============================================================
+
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Vite
+*.timestamp-*.mjs
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Vitest
+__screenshots__/
+
+# ============================================================
+# Project-specific
+# ============================================================
+
+# Downloaded PDF output folder
+D:/download/
+
+# Mock data with sensitive content (optional — remove if mock data should be tracked)
+# BackEnd/app/mock_data/
+
+# pyodbc / SQL Server connection secrets
+BackEnd/app/config.py
