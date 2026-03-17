@@ -1,3 +1,0 @@
-2026-02-10 09:32:43,042 | INFO | app.services.bdex_service | Requesting BDEX token
-2026-02-10 09:32:43,503 | INFO | app.services.bdex_service | Get token success
-2026-02-10 09:32:43,503 | INFO | app.services.bdex_service | CreateJob API response status=200 body={'status': {'code': '1000', 'description': 'Success'}, 'data': {'accessToken': '171k032Xt6F5DQ138-O8x-3de9Tn7g398V9U2ya81-5a4g5Xj771-8J13Nq5NH6KIl67iujG4t7PA274', 'tokenType': 'Bearer', 'expiresIn': '1800', 'expiresAt': '1770714163'}}
